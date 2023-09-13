@@ -307,8 +307,7 @@ if (algumBooleano) {
 System.out.println(i); // cuidado!
 ```
 
-Aqui a variável `i` não existe fora do `if` e do `else`! Se você declarar a variável antes do `if`, vai haver outro erro
-de compilação: dentro do `if` e do `else` a variável está sendo redeclarada! Então o código para compilar e fazer sentido fica:
+Aqui a variável `i` não existe fora do `if` e do `else`! Se você declarar a variável antes do `if`, vai haver outro erro de compilação: dentro do `if` e do `else` a variável está sendo redeclarada! Então o código para compilar e fazer sentido fica:
 
 ```java
 int i;
@@ -327,8 +326,8 @@ for (int i = 0; i < 10; i++) {
 }
 System.out.println(i); // cuidado!
 ```
-Neste for, a variável i morre ao seu término, não podendo ser acessada de fora do for, gerando um erro de
-compilação. Se você realmente quer acessar o contador depois do loop terminar, precisa de algo como:
+Neste for, a variável `i` morre ao seu término, não podendo ser acessada de fora do for, gerando um erro de compilação. Se você realmente quer acessar o contador depois do loop terminar, precisa de algo como:
+
 ```java 
 int i;
 for (i = 0; i < 10; i++) {
@@ -404,9 +403,7 @@ Se você tentar acessar uma posição fora desse alcance, um erro ocorrerá dura
 int[] numeros = new int[100];
 ```
 
-A variável `numeros` armazena a referência de um array criado na memória do computador através
-do comando `new`. Na memória, o espaço ocupado por esse array está dividido em 100 "pedaços"
-iguais numerados de 0 até 99. Cada "pedaço" pode armazenar um valor do tipo int.
+A variável `numeros` armazena a referência de um array criado na memória do computador através do comando `new`. Na memória, o espaço ocupado por esse array está dividido em 100 "pedaços" iguais numerados de 0 até 99. Cada "pedaço" pode armazenar um valor do tipo int.
 
 ### Modificando o conteúdo de um array
 

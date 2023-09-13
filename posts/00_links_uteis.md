@@ -13,7 +13,7 @@ star: true
 
 - JDK
 - Git
-    - Github Desktop (windows)
+    - [Github Desktop (windows)](https://desktop.github.com/)
 - Visual Studio Code
 - Scene Builder
 
