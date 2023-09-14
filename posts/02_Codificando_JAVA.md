@@ -718,8 +718,8 @@ String str = Float.toString(f);
 Veja como fazer a conversão de um integer para ASCII:
 
 ```java
-int i = (int) c; // Você terá o valor 65
 char c = 'A';
+int i = (int) c; // Você terá o valor 65
 ```
 
 
