@@ -1,0 +1,13 @@
+- Sistema bancario
+- gestão financeira pessoal
+- Freetime (lanchonete)
+- Reserva e venda de passagens aereas
+- Emprestimo livro
+- repertório para apresentações músicas (pedir música, playlist)
+- lista de compras compartilhada
+    - atribuição de item para pessoas
+    - quebra de linha para novos itens (ctrl-v cria vários itens)
+    - uuid, novos itens online e offline 
+    - grup (supermercado, feira, farmácia...)
+    - upload de imagens 
+ - sistema de cálculo de preço único para verificar qual produto está mais em conta (gramas, litros, unidades...)
