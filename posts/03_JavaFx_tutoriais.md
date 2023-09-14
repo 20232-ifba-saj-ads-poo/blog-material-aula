@@ -87,8 +87,8 @@ Clique com o lado direita do mouse e escolha a opção `Open in Scene Builder`
 
 ## Repositórios templates
 
-- [Step 1](https://github.com/20231-ifba-saj-ads-poo/javafx-template-step1)
-- [Step 2](https://github.com/20231-ifba-saj-ads-poo/javafx-template-step2)
+- [Step 1](https://github.com/20232-ifba-saj-ads-poo/javafx-template-step1)
+- [Step 2](https://github.com/20232-ifba-saj-ads-poo/javafx-template-step2)
 
 
 ## JavaFX 
