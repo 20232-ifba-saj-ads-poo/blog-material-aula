@@ -467,6 +467,17 @@ return sucesso
 <figcaption>Diagram de sequencia para a transferência entre contas</figcaption>
 </figure>
 
+::: details 
+
+```java
+void transfere(double quantidade, Conta destino){
+  if(this.saca(quantidade)){
+    destino.deposita(quantidade);
+  }   
+}
+```
+:::
+
 ### Comparando
 
 ```java
