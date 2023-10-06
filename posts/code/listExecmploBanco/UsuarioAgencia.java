@@ -4,7 +4,6 @@ import static java.lang.System.out;
 
 public class UsuarioAgencia {
     public static void main(String[] args) {
-
         //criar agencia
         Agencia ag1 = new Agencia(2);        
 

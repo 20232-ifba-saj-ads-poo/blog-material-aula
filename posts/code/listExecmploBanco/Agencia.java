@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public class Agencia {
     private int numero;
     private ArrayList<Conta> contas;
-
     
     public Agencia(int numero) {
         this.numero = numero;
@@ -30,6 +29,5 @@ public class Agencia {
 
     public int totalContas() {
         return contas.size();
-    }
-    
+    }    
 }
