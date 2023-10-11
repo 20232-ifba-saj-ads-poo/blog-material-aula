@@ -10,9 +10,9 @@ category:
 order: 09
 ---
 
-[^IBM] [^JakartaEE] [^JAVAGUIDES]
-
 # Arquitetura de três camadas (tiers)
+
+[^IBM] [^JakartaEE] [^JAVAGUIDES]
 
 A arquitetura de três camadas, que separa os aplicativos em três camadas de computação lógica e física, é a arquitetura de software predominante para aplicativos tradicionais de cliente-servidor.
 
