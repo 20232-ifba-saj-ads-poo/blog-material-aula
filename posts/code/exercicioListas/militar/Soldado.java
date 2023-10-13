@@ -1,5 +1,7 @@
 package posts.code.exercicioListas.militar;
 
+import java.util.Objects;
+
 public class Soldado {
     private String nome;
     private int identificacao;
@@ -28,24 +30,30 @@ public class Soldado {
         return tempoServico;
     }
 
-    public void incrementarTempoServico(){
+    public void incrementarTempoServico() {
         tempoServico++;
     }
 
+    // TODO fazer romoção de subordinado na troca do imediato
     public void setImediato(Cabo imediato) {
-        this.imediato = imediato;
-        this.imediato.getSubordinados().add(this);
+        if (!(Objects.equals(this.imediato, imediato))) {
+            this.imediato = imediato;
+            this.imediato.addSubordinado(this);
+        }
     }
 
-    public static void main(String[] args) {
-        Soldado s1 = new Soldado("Leandro", 1);
-        Soldado s2 = new Soldado("Leandro2", 12);
-        Cabo c1 = new Cabo("Caboclo", 10);
-        c1.addSubordinado(s1);
-        //s1.setImediato(c1);
-        s2.setImediato(c1);
-        System.out.println("Imediato do Soldado "+ s1.getNome()+" é :"+s1.getImediato().getNome());
-        System.out.println("A quantidade de subordidados do Cabo "+ c1.getNome()+" é :"+c1.getSubordinados().size());                
+    @Override
+    public boolean equals(Object o) {
+        if (this == o)
+            return true;
+        if (o == null || getClass() != o.getClass())
+            return false;
+        Soldado soldado = (Soldado) o;
+        return identificacao == soldado.identificacao && Objects.equals(nome, soldado.nome);
     }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(nome, identificacao);
+    }
 }

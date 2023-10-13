@@ -22,16 +22,11 @@ prev: 04_exercicio_modelagem_dvd
 1. **Hierarquia Militar Simplificada:**
    Modele uma simplificação da hierarquia do Exército Brasileiro. Existem diferentes patentes militares, como Soldado, Cabo, Sargento, Tenente e Capitão. Cada patente tem atributos como nome, número de identificação e tempo de serviço. Os soldados reportam aos cabos, os cabos aos sargentos e assim por diante. Implemente métodos para listar os subordinados de um militar em uma patente superior e seu superior imediato.
       ::: details 
+   @[code](../code/exercicioListas/militar/MontarPelotao.java)
 
    @[code](../code/exercicioListas/militar/Soldado.java)
 
    @[code](../code/exercicioListas/militar/Cabo.java)
-
-   @[code](../code/exercicioListas/militar/Sargento.java)
-
-   @[code](../code/exercicioListas/militar/Tenente.java)
-
-         
       ::: 
 
 1. **Sistema de Reservas de Hotéis:**
