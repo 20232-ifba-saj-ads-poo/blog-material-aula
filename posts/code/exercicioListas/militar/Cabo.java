@@ -1,6 +1,8 @@
 package posts.code.exercicioListas.militar;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.Objects;
 
 public class Cabo {
@@ -29,15 +31,15 @@ public class Cabo {
         return nome;
     }
 
-    public ArrayList<Soldado> getSubordinados() {
-        return subordinados;
+    public List<Soldado> getSubordinados() {
+        return Collections.unmodifiableList(subordinados);
     }
 
     public int getTempoServico() {
         return tempoServico;
     }
 
-    // TODO fazer romoção de subordinado na troca do imediato
+    // TODO fazer remoção de subordinado na troca do imediato
     public void addSubordinado(Soldado soldado) {
         soldado.setImediato(this);
         if (!this.subordinados.contains(soldado)) {

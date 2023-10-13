@@ -34,7 +34,7 @@ public class Soldado {
         tempoServico++;
     }
 
-    // TODO fazer romoção de subordinado na troca do imediato
+    // TODO fazer remoção de subordinado na troca do imediato
     public void setImediato(Cabo imediato) {
         if (!(Objects.equals(this.imediato, imediato))) {
             this.imediato = imediato;

@@ -11,6 +11,11 @@ public class MontarPelotao {
         s2.setImediato(c1);
         s3.setImediato(c1);
         c1.addSubordinado(s3);
+
+        //c1.getSubordinados().add(s3);
+        //c1.getSubordinados().clear();
+        //c1.getSubordinados().remove(s3);
+
         System.out.println("Imediato do Soldado " + s1.getNome() + " é :" + s1.getImediato().getNome());
         System.out
                 .println("A quantidade de subordidados do Cabo " + c1.getNome() + " é :" + c1.getSubordinados().size());
