@@ -15,7 +15,8 @@ prev: 04_exercicio_modelagem_dvd
 
 1. **Gerenciamento de Escola:**
    Desenvolva um programa para gerenciar informações de uma escola. Cada escola contém várias turmas, cada turma tem vários alunos e professores. Os alunos podem pertencer a mais de uma turma. Os professores ministram aulas em uma ou mais turmas. Os dados devem ser organizados para permitir consultas sobre quais turmas um professor leciona e quais alunos estão matriculados em uma turma específica.
-
+   [Entrega](https://classroom.github.com/a/rZ5646r0)  
+   
 1. **Sistema de Loja de Roupas:**
    Crie um sistema para gerenciar uma loja de roupas. A loja tem vários departamentos, como roupas masculinas, femininas e infantis. Cada departamento contém vários produtos (roupas) com informações como preço, tamanho e cor. Os clientes podem adicionar produtos ao carrinho de compras e finalizar suas compras. Implemente funcionalidades para calcular o total das compras e listar os produtos em um carrinho.
 
