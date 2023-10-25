@@ -62,3 +62,6 @@
 [^JAVAGUIDES]:Three Tier (Three Layer) Architecture in Spring MVC Web Application.[https://www.javaguides.net/2020/07/three-tier-three-layer-architecture-in-spring-mvc-web-application.html](https://www.javaguides.net/2020/07/three-tier-three-layer-architecture-in-spring-mvc-web-application.html). (Acessado em 02/02/2023) 
 
 [^IBMthree]:What is three-tier architecture?.[https://www.ibm.com/topics/three-tier-architecture](https://www.ibm.com/topics/three-tier-architecture). (Acessado em 02/02/2023) 
+
+
+[^ZUP_DATA]:API de data do Java: domine o uso de data no seu código [https://www.zup.com.br/blog/api-de-data-do-java](https://www.zup.com.br/blog/api-de-data-do-java)
