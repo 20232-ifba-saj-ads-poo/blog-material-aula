@@ -19,6 +19,9 @@ prev: 04_exercicio_modelagem_dvd
    [Entrega](https://classroom.github.com/a/rZ5646r0)  
    
    ::: details 
+
+   
+
    @[code](../code/exercicioListas/turmas/Escola.java)
    
    @[code](../code/exercicioListas/turmas/Turma.java)

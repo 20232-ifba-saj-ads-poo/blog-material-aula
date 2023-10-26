@@ -32,19 +32,33 @@ public class Escola {
         //Os dados devem ser organizados para permitir 
         //consultas sobre quais turmas um professor leciona
         System.out.println("Turmas do professor "+p2.getNome());
+        for (Turma turma : turmas) {
+            if(turma.getProfessores().contains(p2)){
+                System.out.println(turma.getNome());  
+            }
+        }
+
         for (Turma turma : p2.getTurmas()) {
             System.out.println(turma.getNome());            
         }
+        
         //quais alunos estão matriculados em uma turma específica        
+        
         System.out.println("Alunos da turma "+t2.getNome());
         for (Aluno aluno : t2.getAlunos()) {
             System.out.println(aluno.getNome());
         }
+        
         //quais turmas um aluno está matriculado
         System.out.println("Turmas do aluno "+a1.getNome());
+        for (Turma turma : turmas) {
+            if(turma.getAlunos().contains(a1)){
+                System.out.println(turma.getNome());
+            }
+        }
+
         for (Turma turma : a1.getTurmas()) {
-            System.out.println(turma.getNome());
-            
+            System.out.println(turma.getNome());            
         }
         
     }
