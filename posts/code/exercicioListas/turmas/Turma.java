@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
+
+import posts.code.exercicioListas.militar.Cabo;
 
 public class Turma {
     private String nome;
@@ -54,6 +57,23 @@ public class Turma {
 
     public String getNome() {
         return nome;
+    }
+
+    
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o)
+            return true;
+        if (o == null || getClass() != o.getClass())
+            return false;
+        Turma turma = (Turma) o;
+        return Objects.equals(nome, turma.nome);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nome);
     }
 
     @Override
