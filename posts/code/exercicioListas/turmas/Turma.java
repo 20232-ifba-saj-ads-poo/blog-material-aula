@@ -2,8 +2,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-import posts.code.exercicioListas.militar.Cabo;
-
 public class Turma {
     private String nome;
     private List<Professor> professores;
