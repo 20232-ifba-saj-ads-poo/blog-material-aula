@@ -15,21 +15,33 @@ prev: 04_exercicio_modelagem_dvd
 
 1. **Gerenciamento de Escola:**
    Desenvolva um programa para gerenciar informações de uma escola. Cada escola contém várias turmas, cada turma tem vários alunos e professores. Os alunos podem pertencer a mais de uma turma. Os professores ministram aulas em uma ou mais turmas. Os dados devem ser organizados para permitir consultas sobre quais turmas um professor leciona e quais alunos estão matriculados em uma turma específica.
+   
    [Entrega](https://classroom.github.com/a/rZ5646r0)  
    
+   ::: details 
+   @[code](../code/exercicioListas/turmas/Escola.java)
+   
+   @[code](../code/exercicioListas/turmas/Turma.java)
+
+   @[code](../code/exercicioListas/turmas/Aluno.java)
+
+   @[code](../code/exercicioListas/turmas/Professor.java)
+
+   ::: 
+
 1. **Sistema de Loja de Roupas:**
    Crie um sistema para gerenciar uma loja de roupas. A loja tem vários departamentos, como roupas masculinas, femininas e infantis. Cada departamento contém vários produtos (roupas) com informações como preço, tamanho e cor. Os clientes podem adicionar produtos ao carrinho de compras e finalizar suas compras. Implemente funcionalidades para calcular o total das compras e listar os produtos em um carrinho.
 
 1. **Hierarquia Militar Simplificada:**
    Modele uma simplificação da hierarquia do Exército Brasileiro. Existem diferentes patentes militares, como Soldado, Cabo, Sargento, Tenente e Capitão. Cada patente tem atributos como nome, número de identificação e tempo de serviço. Os soldados reportam aos cabos, os cabos aos sargentos e assim por diante. Implemente métodos para listar os subordinados de um militar em uma patente superior e seu superior imediato.
    1. Fazer remoção de subordinado na troca do imediato.
-      ::: details 
+   ::: details 
    @[code](../code/exercicioListas/militar/MontarPelotao.java)
 
    @[code](../code/exercicioListas/militar/Soldado.java)
 
    @[code](../code/exercicioListas/militar/Cabo.java)
-      ::: 
+   ::: 
 
 1. **Sistema de Reservas de Hotéis:**
    Desenvolva um sistema de reservas de hotéis. Cada hotel possui vários quartos, e cada quarto tem diferentes categorias, como luxo, padrão, suíte, etc. Os clientes podem fazer reservas para datas específicas e escolher um tipo de quarto. O sistema deve rastrear a disponibilidade de quartos e calcular o preço total da reserva com base na categoria do quarto e no número de noites.

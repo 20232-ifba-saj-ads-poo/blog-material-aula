@@ -1,7 +1,6 @@
 package posts.code.exercicioListas.militar;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
@@ -32,7 +31,7 @@ public class Cabo {
     }
 
     public List<Soldado> getSubordinados() {
-        return Collections.unmodifiableList(subordinados);
+        return List.copyOf(subordinados);
     }
 
     public int getTempoServico() {
