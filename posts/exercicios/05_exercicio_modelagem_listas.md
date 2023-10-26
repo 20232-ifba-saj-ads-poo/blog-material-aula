@@ -20,10 +20,31 @@ prev: 04_exercicio_modelagem_dvd
    
    ::: details 
 
-   
+   ```plantuml
+   @startuml
+   class Aluno {
+   - String nome
+   - List<Turma> turmas
+   }
+
+   class Professor {
+   - String nome
+   - List<Turma> turmas
+   }
+
+   class Turma {
+   - String nome
+   - List<Professor> professores
+   - List<Aluno> alunos
+   }
+   Turma .. Aluno
+   Turma .. Professor
+   @enduml
+
+   ```
 
    @[code](../code/exercicioListas/turmas/Escola.java)
-   
+
    @[code](../code/exercicioListas/turmas/Turma.java)
 
    @[code](../code/exercicioListas/turmas/Aluno.java)
