@@ -132,6 +132,17 @@ public synchronized void metodo() {
 //...
 ```
 
+
+## Exemplo 
+
+@[code](./code/threads/Conta.java)
+
+@[code](./code/threads/ContaSynchronized.java)
+
+@[code](./code/threads/ContaAtomic.java)
+
+@[code](./code/threads/AppConta.java)
+
 ## Estados de uma Thread
 
 - Nova Thread
