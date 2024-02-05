@@ -133,7 +133,7 @@ public synchronized void metodo() {
 ```
 
 
-## Exemplo 
+## Exemplo Conta
 
 @[code](./code/threads/Conta.java)
 
@@ -142,6 +142,18 @@ public synchronized void metodo() {
 @[code](./code/threads/ContaAtomic.java)
 
 @[code](./code/threads/AppConta.java)
+
+
+## Exemplo Parallel
+
+### ArrayList
+
+@[code](./code/threads/Parallel.java)
+
+### Collections.synchronizedList
+
+@[code](./code/threads/ParallelSynchronizedList.java)
+
 
 ## Estados de uma Thread
 
